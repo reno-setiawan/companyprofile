@@ -1,0 +1,42 @@
+*{
+    text-transform: capitalize;
+}
+span{
+    color: #333;
+    font-weight: 800;
+}
+brand-logo{
+    font-weight: 800 important!;
+}
+h3, 
+h5, 
+.clients h3, 
+.services h3,
+.portfolio h3,
+.contact h3,
+form h5{
+    text-shadow: 5px 5px 5px #333;
+    font-weight: 500;
+    color: #fff;
+}
+/* .slides img{
+    max-height: 100vh !important;
+} */
+.parallax-container{
+    min-height: 90px;
+}
+.clients img{
+    max-height: 250px;
+    margin-top: 80px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+.clients img:hover{
+    max-height: 300px;
+}
+.services .card-panel:hover{
+    box-shadow: 0px 10px 5px #333;
+}
+section, footer{
+    padding: 10px 0;
+}
